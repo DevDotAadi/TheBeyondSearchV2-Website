@@ -81,8 +81,8 @@ export function ChatComposer() {
   }
 
   return (
-    <div className="w-full max-w-[720px] rounded-glass border border-white/60 bg-white/35 p-1.5 shadow-glass backdrop-blur-[16px]">
-      <div className="min-h-[108px] rounded-composer border border-black/5 bg-[#FCFCFD] px-4 py-3.5 shadow-composer">
+    <div className="chat-composer w-full max-w-[720px] rounded-glass border border-white/60 bg-white/35 p-1.5 shadow-glass backdrop-blur-[16px]">
+      <div className="chat-composer-inner min-h-[108px] rounded-composer border border-black/5 bg-[#FCFCFD] px-4 py-3.5 shadow-composer">
         <div className="relative">
           <textarea
             ref={textareaRef}

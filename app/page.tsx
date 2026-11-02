@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { ChatComposer } from "@/components/ChatComposer";
 import { SocialProofPill } from "@/components/SocialProofPill";
+import { AppShowcase } from "@/components/AppShowcase";
 
 export default function Home() {
   return (
     <>
-      <main className="relative isolate flex min-h-svh flex-col items-center justify-center gap-[var(--spacing-hero)] px-4 pb-[6vh]">
+      <main className="hero-shell relative isolate flex min-h-svh flex-col items-center justify-center gap-[var(--spacing-hero)] px-4 pb-[6vh]">
         <Image
           src="/hero-background.webp"
           alt=""
@@ -25,11 +26,7 @@ export default function Home() {
           <ChatComposer />
         </div>
       </main>
-      {/* TODO: remove temporary white section when the real section is added */}
-      <section
-        aria-label="Difference section"
-        className="min-h-[60vh] bg-[var(--section-bg)]"
-      />
+      <AppShowcase />
     </>
   );
 }

@@ -24,6 +24,14 @@ export const metadata: Metadata = {
   authors: [{ name: "TheBeyondSearch", url: "https://thebeyondsearch.com" }],
   creator: "TheBeyondSearch",
   publisher: "TheBeyondSearch",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/webp",
+      sizes: "1254x1254",
+      url: "/icons/brands/favicon.webp",
+    },
+  ],
   openGraph: {
     title: "TheBeyondSearch | Put your marketing on autopilot",
     description:

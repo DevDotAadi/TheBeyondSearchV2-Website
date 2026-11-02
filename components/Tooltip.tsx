@@ -13,7 +13,7 @@ import {
   type ReactElement,
 } from "react";
 
-const HOVER_DELAY = 150;
+const HOVER_DELAY = 30;
 const VIEWPORT_MARGIN = 8;
 
 const useIsomorphicLayoutEffect =

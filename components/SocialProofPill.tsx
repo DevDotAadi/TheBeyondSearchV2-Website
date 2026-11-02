@@ -24,7 +24,7 @@ export function SocialProofPill() {
           return (
             <span
               key={avatar.src}
-              className={`relative size-[32px] shrink-0 overflow-hidden rounded-full border-2 border-white/85 bg-white/60 backdrop-blur-[14px] backdrop-saturate-[140%] bg-[linear-gradient(145deg,#f4f5f7_0%,#e1e5e9_100%)] sm:size-[36px] ${
+              className={`relative size-[28px] shrink-0 overflow-hidden rounded-full border-2 border-white/85 bg-white/60 backdrop-blur-[14px] backdrop-saturate-[140%] bg-[linear-gradient(145deg,#f4f5f7_0%,#e1e5e9_100%)] sm:size-[36px] ${
                 index > 0 ? "-ml-2" : ""
               } ${index < 3 ? "" : "hidden sm:block"}`}
               style={{ zIndex: index + 1 }}
@@ -59,8 +59,8 @@ export function SocialProofPill() {
           );
         })}
       </span>
-      <span className="social-proof-text text-shimmer whitespace-nowrap text-[13.5px] font-medium leading-[1.25] tracking-[-0.01em] antialiased sm:text-[14px]">
-        Trusted by founders & builders
+      <span className="social-proof-text text-shimmer whitespace-nowrap text-[13px] font-medium leading-[1.25] tracking-[-0.01em] antialiased sm:text-[14px]">
+        Built with founders & builders
       </span>
     </div>
   );
